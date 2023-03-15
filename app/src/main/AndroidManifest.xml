@@ -14,6 +14,9 @@
         android:theme="@style/Theme.KoreanRestaurantApp"
         tools:targetApi="31">
         <activity
+            android:name=".FoodDetail"
+            android:exported="false" />
+        <activity
             android:name=".FoodList"
             android:exported="false" />
         <activity
@@ -21,11 +24,13 @@
             android:exported="true"
             android:label="@string/title_activity_home"
             android:theme="@style/Theme.KoreanRestaurantApp.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name=".SignUp"
