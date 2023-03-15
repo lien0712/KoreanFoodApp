@@ -36,7 +36,7 @@
             android:background="@color/white"
             android:gravity="left"
             android:hint="Password"
-            android:text="12345"
+            android:text="1234"
             android:inputType="textPassword"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
