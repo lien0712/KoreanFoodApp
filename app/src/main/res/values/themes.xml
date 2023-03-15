@@ -20,4 +20,15 @@
     <style name="Theme.KoreanRestaurantApp.AppBarOverlay"
         parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="Theme.KoreanRestaurantApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CollapsedAppbar" parent="@style/TextAppearance.AppCompat.Medium">
+        <item name="android:textSize" >24sp</item>
+        <item name="android:textColor" >@color/white</item>
+        <item name="android:textStyle" >normal</item>
+    </style>
+
+    <style name="ExpandedAppbar" parent="@style/TextAppearance.Material3.ActionBar.Title">
+        <item name="android:textColor" >@color/warm</item>
+        <item name="android:textStyle" >normal</item>
+    </style>
 </resources>

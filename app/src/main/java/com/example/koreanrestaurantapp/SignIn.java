@@ -49,7 +49,7 @@ public class SignIn extends AppCompatActivity {
                         if( dataSnapshot.child(edtPhone.getText().toString()).exists()){
                             //Get user information
                             User user = dataSnapshot.child(edtPhone.getText().toString()).getValue(User.class);
-                            assert user != null;
+
                             if( user.getPassword().equals(edtPassword.getText().toString())){
 //                                Toast.makeText(SignIn.this,"Sign in successfully",Toast.LENGTH_SHORT).show();
                                 Intent homeIntent = new Intent(SignIn.this,Home.class);
