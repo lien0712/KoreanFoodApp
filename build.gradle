@@ -6,6 +6,7 @@ buildscript {
         google()  // Google's Maven repository
 
         mavenCentral()  // Maven Central repository
+        jcenter()
 
     }
     dependencies {
@@ -30,6 +31,7 @@ allprojects {
 //        google()  // Google's Maven repository
 //
 //        mavenCentral()  // Maven Central repository
-
+       // jcenter()
+        //maven { url 'http://dl.bintray.com/amulyakhare/maven ' }
     }
 }
