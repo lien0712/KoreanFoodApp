@@ -16,4 +16,5 @@
     <string name="cart">Cart</string>
     <string name="orders">Orders</string>
     <string name="sign_out">Sign out</string>
+    <string name="todo">TODO</string>
 </resources>
